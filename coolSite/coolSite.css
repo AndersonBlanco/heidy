@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    background-color: #000000;
+}
+
+.sec1{
+    background-image: url('./eyeBoichi.jpg');
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec1ContentBackgroundOfHolder{
+    background-color: rgba(0,0,0, .5);
+    width: 70vmin;
+    height: 25vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec1ContentHolder{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.sec1ContentHolder p{
+    color: #Fff;
+    font-size: 3vmin;
+    margin: 0 ;
+    height: min-content;
+    width: 100%;
+    margin-bottom: 5px ;
+    
+    
+}
+.sec1Content1{
+    border-bottom: 1px solid #fa1313;
+    font-size: 5vmin !important;
+}
+.sec1ContentHolder span{
+    color: #fa1313;
+}
+.Sec1ButtonsAndInput{
+    display: flex;
+    flex-direction: row;
+    gap: 1vmin;
+}
+.Sec1ButtonsAndInput input{
+    border-radius: 18px;
+    background: rgb(255, 255, 255);
+    padding: 20px; 
+    width: 19vmin;
+    height: 7px;    
+}
+.Sec1ButtonsAndInput button{
+    width: 17vmin;
+    background-color: #fff;
+    border-radius: 18px;
+}
+
+
+
+
+
+
+.flipped{
+    writing-mode:vertical-lr;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 5vmin;
+}
+.mainImages{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6vmin;
+    margin-top: 50px;
+    align-items: center;
+}
+.mainImages img{
+    
+    width: 56vmin;
+    height: 76vmin;
+    object-fit: cover;
+    object-position: 50% 50%;
+    transition-duration: 2s;
+    
+}
+
+.mainImages img:hover{
+    transition-duration: 2s;
+    opacity: .5;
+    scale: 102%;
+}
