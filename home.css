@@ -9,7 +9,7 @@ body{
     height: 50vh;
     background-color: rgba(233, 159, 229, 0.377);
     background-blend-mode: overlay;
-    background-image: url(./backgroundHomepage.jpg);
+ /*background-image: url(./backgroundHomepage.jpg);*/
     background-repeat: no-repeat;
     background-position-y: 30%;
     background-size: cover;
