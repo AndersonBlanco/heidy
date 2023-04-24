@@ -8,19 +8,33 @@ const footer = document.getElementById('footer');
 
 
 var headerContent = `
+<div id = 'container'>
 <ul>
+    <li><h2>AFFIRMATIONS</h2></li>
+    <li><h2>SHOP</h2></li>
+    <li><h2>CONTACT</h2></li>
+    <li><h2>BLOG</h2></li>
+    <li><h2>WORK-OUT</h2></li>
+    </ul> 
+</div>
+`;
 
-<li>Home</li>
-<li>Affirmations</l1>
-<li>Contact</l1>
-<li>Shop</l1>
+var contentCont = `
+<div id = 'container'>
+<h1>Content</h1>
+</div>
 
-</ul>
+`;
+
+var footerContent = `
+<div id = 'container'>
+<h1>footer</h1>
+</div>
 `;
 
 //header.innerHTML += headerContent;
 
-function fetching(path, target){
+function fetching(path, target, rawHTML){
     fetch(path).then(function (response) {
 	// The API call was successful!
 	return response.text();
@@ -30,12 +44,15 @@ function fetching(path, target){
 	//var parser = new DOMParser();
 	//var doc = parser.parseFromString(html, 'text/html');
 
-    header.innerHTML += html;
+    target.innerHTML += html; 
 }).catch(function (err) {
 	// There was an error
 	alert('Something went wrong.', err);
 });}
 
-fetching('./docs/components/header/headerContent.html', header)
-fetching('./docs/components/content/contentCont.html', content)
-fetching('./docs/components/footer/footerCont.html', footer)
+fetching('./docs/components/header/headerContent.html', header, headerContent)
+fetching('./docs/components/content/contentCont.html', content, contentCont)
+fetching('./docs/components/footer/footerCont.html', footer, footerContent)
+
+
+
