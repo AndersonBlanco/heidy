@@ -1,1 +1,8 @@
 Official Heidy website. 
+
+
+to load html content with js, make sure to reference any image path or style links or js tags src, in the html file, with {../docs} first
+
+
+USING js fetching function:
+  s1: 
