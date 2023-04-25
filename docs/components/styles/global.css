@@ -11,11 +11,12 @@ html,
     font-size: 1vw; 
     overflow-x: hidden;
 
-    background-image: url('../docs/imgs/paper.png');
+    background-image: url('../svgs/paper.svg');
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
+    background-position-y: 50rem;
 
-    background-position:center;
 }
 
 
