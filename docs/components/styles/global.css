@@ -1,3 +1,5 @@
+
+
 html,
  body{
     margin: 0;
@@ -11,13 +13,17 @@ html,
     font-size: 1vw; 
     overflow-x: hidden;
 
-    background-image: url('../docs/imgs/paper.png');
+    /* background-image: url('../components/svgs/paper.svg');*/ 
     background-repeat: no-repeat;
     background-size: contain;
-
-    background-position:center;
+        
+    background-position:top;
+    background-position-y: 5rem;
 }
 
+#Home{
+    background-color: transparent !important;
+}
 
 .container{
     text-align:center;
@@ -25,3 +31,9 @@ html,
     justify-content: center;
     color: white;
 }
+
+
+
+
+
+

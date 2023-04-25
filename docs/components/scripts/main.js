@@ -2,8 +2,10 @@
 
 
 const wbesiteTitltle_name = 'Heidy'; 
+ 
+
 const header = document.getElementById('header');
-const content = document.getElementById("content");
+const root = document.getElementById("root");
 const footer = document.getElementById('footer');
 
 
@@ -50,9 +52,9 @@ function fetching(path, target, rawHTML){
 	alert('Something went wrong.', err);
 });}
 
-fetching('./docs/components/header/headerContent.html', header, headerContent)
-fetching('./docs/components/content/contentCont.html', content, contentCont)
-fetching('./docs/components/footer/footerCont.html', footer, footerContent)
+fetching('../header/headerContent.html', header, headerContent)
+//fetching('../Home/home.html', root, contentCont)
+fetching('../footer/footerCont.html', footer, footerContent)
 
 
 

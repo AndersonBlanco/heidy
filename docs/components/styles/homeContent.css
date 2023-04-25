@@ -1,0 +1,183 @@
+
+/*  home content */
+#Home{
+    background-color: #FCE1B3;; 
+    padding: 0rem;
+    margin: 0rem; 
+    overflow-x: hidden;
+}
+
+
+ #headerImgContainer{
+    height: 55rem;
+    overflow: hidden;
+     width: 100%;
+     align-content: center;
+     text-align:center;
+     align-items:center;
+     justify-content: center;
+     background-image: url('../imgs/headerMain.jpg');
+     background-size: cover;
+     background-repeat: no-repeat ;
+     background-position: center;
+ 
+
+ }
+
+   #socials{
+     
+    
+     list-style-type: none;
+     display:flex;
+     flex-direction: row;
+     text-align:center;
+     align-items:center;
+     justify-content: space-evenly;
+    position: relative; 
+     top: -5rem;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+    
+
+ }
+
+  #socials li img{
+     height: 2.5rem;
+     margin: auto; 
+
+ }
+
+  .title{
+      
+     font-size: 3rem;
+     position: relative;
+     top: -55rem;
+     left: -25.1rem;
+
+
+ }
+
+   .title span{
+      bottom: -2.5rem;
+      left: -2.5rem;
+      position: relative;
+      color: rgb(255, 208, 0);
+
+ } 
+
+ .profileCirc{
+     background-color:rgba(0, 0, 0, 0.25);
+     background-image: url('./docs/components/imgs/MainSec2Img.jpg');
+     height: 10rem;
+     width: 10rem;
+     position: relative;
+     top: -61rem;
+     right: -73rem;
+     border-radius: 10rem;
+     background-blend-mode: overlay;
+     background-size: 37rem;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-position-x: -2rem;
+     background-position-y:-2rem;
+     cursor: pointer;
+     
+
+ }
+
+
+   .quote{
+     font-size: 2rem;
+     position: relative;
+     top: -57rem;
+     right: -57.2rem;
+     display: flex;
+     flex-wrap: wrap;
+     width: 50%;
+     text-align:left;
+
+ }
+
+   .quote span{
+     color: rgb(255, 213, 24);
+    
+ }
+
+
+
+
+#container{
+    height: 70rem;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+ #contactField{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+     
+    padding-inline: 10rem;
+
+
+}
+
+  #contactField legend{
+    font-size: 4rem;
+     color: white;
+     display: flex;
+     position: relative;
+     flex-direction: row;
+    font-weight: 700; 
+
+
+}
+
+ #contactField input{
+    width: 50%;
+    font-size: 1.5rem;
+    padding-inline-start: 2rem;
+    padding-inline: 1rem;
+
+    outline: none;
+    margin-block: 1rem;
+    padding-block: 1rem;
+    border-width: 0rem;
+    border-bottom-color: rgba(255, 208, 0, 0);
+    border-bottom-width: .25rem;
+    transition-duration: .5s; 
+    border-radius: 2rem;
+}
+ #contactField input:focus{
+    border-bottom-color: rgba(255, 208, 0, 1);
+
+}
+
+  #contactField button{
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    padding: 1rem 2.5rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: rgb(255, 221, 71); 
+    cursor: pointer; 
+}
+
+ #contactField .inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
