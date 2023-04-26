@@ -52,7 +52,7 @@ function fetching(path, target, rawHTML){
 	alert('Something went wrong.', err);
 });}
 
-fetching('../header/headerContent.html', header, headerContent)
+fetching('./docs/header/headerContent.html', header, headerContent)
 //fetching('../Home/home.html', root, contentCont)
 fetching('../footer/footerCont.html', footer, footerContent)
 
